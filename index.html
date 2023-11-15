@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valyuta konverter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header><img src="./img/Group 7.svg" alt="header" class="header"></header>
+    <h1>Onlayn Valyuta Konverter</h1>
+
+<section class="sec1">    
+    <p class="p1" id="rub">RUB</p>
+    <p class="p1" id="usd">USD</p>
+    <p class="p1" id="eur">EUR</p>
+    <p class="p1" id="gbp">GBP</p>    
+
+    <p class="p2" id="rubl">RUB</p>
+    <p class="p2" id="dollar">USD</p>
+    <p class="p2" id="euro">EUR</p>
+    <p class="p2" id="pound">GBP</p>
+</section>
+
+<section class="sec3">
+<p class="p3">Mənim varımdır</p>
+<p class="p4">Almaq istəyirəm</p>
+</section>
+
+
+<section class="sec2">    
+<input class="input1" id="first-input"  oninput="validateInput(this)">
+<input class="input2" id="second-input" oninput="validateInput(this)">
+</section>
+<section style="display: flex;">
+<p id="span1"></p>
+<p id="span2"></p>
+</section>
+
+
+
+<script src="./app.js"></script>
+</body>
+</html>
